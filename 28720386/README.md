@@ -114,8 +114,11 @@ Delete a Customer Account: Enter the customer ID to delete the account.
 The application uses custom exceptions for better error management:
 
  ApplicationException: For general application errors.
+ 
  DataNotFoundException: When a requested parcel or customer is not found.
+ 
  DatabaseConnectionException: For handling database connection issues.
+ 
  These exceptions provide user-friendly messages and guide the user in case of errors.
 
 ### Troubleshooting
